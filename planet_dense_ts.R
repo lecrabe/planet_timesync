@@ -31,9 +31,8 @@ packages(data.table)
 
 ###### Modify those 3 inputs as necessary
 dwndir    <- paste0(normalizePath("~"),"/","planet_search_order_download/downloads/") # the folder containing the planet download
-#dwndir    <- paste0(normalizePath("~"),"/","planet_download/downloads/") # the folder containing the planet download
-plandir   <- paste0(normalizePath("~"),"/","rdc_store/planet/")          # the folder where you want to extract and generate the timesyncs. Will be created if it doesn't exist
-how_many  <- 10                                                          # number of samples you want to run the timesync creation on, randomly chosen  
+plandir   <- paste0(normalizePath("~"),"/","planet_data/")                            # the folder where you want to extract and generate the time series. Will be created if it doesn't exist
+how_many  <- 10                                                                       # number of samples you want to run the timesync creation on, randomly chosen  
 
 ##### Define the array dimension for the snippets (by default is 10 rows x 20 columns, in Landscape orientation)
 dim_v_grid <- 10
