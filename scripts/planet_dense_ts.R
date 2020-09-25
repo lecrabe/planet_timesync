@@ -56,7 +56,7 @@ list_samples <- sample(list_dwnd,how_many)
 list_ids     <- substr(list_samples,8,nchar(list_downd))
 
 length(list_samples)
-i<- 1
+i <- 1
 
 ##### Loop through samples
 #for(i in 1:length(list_samples)){
